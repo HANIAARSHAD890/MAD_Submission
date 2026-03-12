@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="386dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="20dp"
+        android:text="Registration Successful!"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="358dp"
+        android:layout_height="48dp" />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="352dp"
+        android:layout_height="48dp" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="351dp"
+        android:layout_height="48dp" />
+
+    <TextView
+        android:id="@+id/event"
+        android:layout_width="352dp"
+        android:layout_height="48dp" />
+
+    <TextView
+        android:id="@+id/dateText"
+        android:layout_width="348dp"
+        android:layout_height="48dp" />
+
+    <TextView
+        android:id="@+id/genderText"
+        android:layout_width="352dp"
+        android:layout_height="48dp" />
+
+    <ImageView
+        android:id="@+id/confirmImage"
+        android:layout_width="347dp"
+        android:layout_height="150dp" />
+</LinearLayout>
